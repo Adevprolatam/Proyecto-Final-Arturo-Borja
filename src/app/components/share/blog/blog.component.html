@@ -1,0 +1,157 @@
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+<!---header-->
+<app-navbar></app-navbar>
+<!---header end-->
+
+<section class="container">
+    <!--Imagen de fondo-->
+    <div class="bg-animation text-white text-center m-2">
+        <h1 class="d-flex justify-content-center align-self-center">Blog</h1>
+        <img src="../assets/img/search-left-desktop.svg" class="img-fluid">
+    </div>
+    <!--carrusel-->
+    <div class="container">
+        <div class="row">
+         <div class="col-6 g-1 ">
+            <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="/assets/Rosurce/image/1.jpeg" class="d-block w-100" alt="..." height="400px">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="/assets/Rosurce/image/3.jpeg" class="d-block w-100" alt="..." height="400px">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="/assets/Rosurce/image/6.jpeg" class="d-block w-100" alt="..." height="400px">
+                  </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </a>
+              </div>
+         </div>
+  <!--Secciones-->         
+  <div class="row row-cols-2 col-6 g-1 ">
+    <div class="col">
+    <div class="img-fluid bg-danger w-100 h-100 enlase" >
+        <a href="https://arturoborja2021.blogspot.com" class="container section_news text-reset" target="_blank"><span>Biblioteca <i class="fa fa-bookmark"></i></span></a>
+    </div>
+    </div>
+    <div class="col">
+        <div class="img-fluid bg-secondary w-100 h-100 enlase" >
+            <a href="#" class="container section_news text-reset"><span>Noticias <i class="fa fa-newspaper-o"></i></span></a>
+         </div>
+    </div>
+    
+    <div class="col">
+        <div class="img-fluid bg-success w-100 h-100 enlase" >
+            <a href="#" class="container section_news text-reset"><span>Galeria <i class="fa fa-picture-o"></i></span></a>
+         </div>
+    </div>
+    
+    <div class="col">
+        <div class="img-fluid bg-info w-100 h-100 enlase" >
+            <a href="#" class="container section_news text-reset"><span>Preguntas Frecuentes <i class="fa fa-question-circle"></i></span></a>
+         </div>
+    </div>
+
+</div>
+</div>
+</div>
+</section>
+<!--Galeria-->
+<section class="galeria-container container">
+  <div class="galeria-image">
+    <section class="galeria">
+        <div class="logo">
+            <h1>Noticias</h1>
+            <p>Desarrollador Web</p>
+        </div>
+        <div class="categorias" id="categorias">
+            <a href="#" class="activo">Todos</a>
+            <a href="#">Naturaleza</a>
+            <a href="#">Ciudades</a>
+            <a href="#">Personas</a>
+            <a href="#">Animales</a>
+        </div>
+        <section class="grid" id="grid">
+            <div class="item" data-categoria="ciudades" data-etiquetas="ciudades autos carros calles" data-descripcion="Tecnology">
+                                                                                                                                         ">
+                <div class="item-contenido">
+                    <img src="/assets/Rosurce/image/product1.jpg" alt="">
+                </div>
+            </div>
+
+            <div class="item" data-categoria="personas" data-etiquetas="personas mujeres" data-descripcion="2.- Lorem ipsum dolor sit amet consectetur.">
+                <div class="item-contenido">
+                    <img src="/assets/Rosurce/image/product2.jpg" alt="">
+                </div>
+            </div>
+
+            <div class="item" data-categoria="paisajes" data-etiquetas="cuchara" data-descripcion="3.- Lorem ipsum dolor sit amet consectetur.">
+                <div class="item-contenido">
+                    <img src="/assets/Rosurce/image/product3.jpg" alt="">
+                </div>
+            </div>
+
+            <div class="item" data-categoria="animales" data-etiquetas="animales leones" data-descripcion="4.- Lorem ipsum dolor sit amet consectetur.">
+                <div class="item-contenido">
+                    <img src="/assets/Rosurce/image/product4.jpg" alt="">
+                </div>
+            </div>
+
+            <div class="item" data-categoria="animales" data-etiquetas="stiven" data-descripcion="5.- Lorem ipsum dolor sit amet consectetur.">
+                <div class="item-contenido">
+                    <img src="/assets/Rosurce/image/stiven.jpg" alt="">
+                </div>
+            </div>
+
+            <div class="item" data-categoria="personas" data-etiquetas="personas mujeres" data-descripcion="6.- Lorem ipsum dolor sit amet consectetur.">
+                <div class="item-contenido">
+                    <img src="img/persona2.png" alt="">
+                </div>
+            </div>
+
+            <div class="item" data-categoria="paisajes" data-etiquetas="paisajes montañas niebla" data-descripcion="7.- Lorem ipsum dolor sit amet consectetur.">
+                <div class="item-contenido">
+                    <img src="img/paisaje2.png" alt="">
+                </div>
+            </div>
+
+            <div class="item" data-categoria="ciudades" data-etiquetas="ciudades paisajes carreteras" data-descripcion="8.- Lorem ipsum dolor sit amet consectetur.">
+                <div class="item-contenido">
+                    <img src="img/ciudad2.png" alt="">
+                </div>
+            </div>
+
+            <div class="item" data-categoria="naturaleza" data-etiquetas="naturaleza hojas plantas" data-descripcion="9.- Lorem ipsum dolor sit amet consectetur.">
+                <div class="item-contenido">
+                    <img src="img/naturaleza1.png" alt="">
+                </div>
+            </div>
+        </section>
+
+        <section class="overlay" id="overlay">
+            <div class="contenedor-img">
+                <button id="btn-cerrar-popup"><i class="fas fa-times"></i></button>
+                <img src="" alt="">
+            </div>
+            <p class="descripcion"></p>
+        </section>
+        </section>
+    </div>
+
+
+</section>
+
+
+
+
+

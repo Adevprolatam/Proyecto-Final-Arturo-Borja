@@ -1,0 +1,49 @@
+.container{
+    padding: 30px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.container-footer{
+display: grid;
+grid-template-columns: 50% 50%;
+}
+.container-footer p{
+    font-weight: 600;
+    color: #111;
+}
+.container-footer i{
+    color: #3aa3e2;
+}
+.container-footer span{
+ color:#424242;
+}
+
+.siguenos .fa-facebook{
+    font-size: 20px;
+     background-color:#337ab7;
+     color: #fff;
+     padding: 15px  17px 15px;
+     margin: 5px;
+    }
+.siguenos .fa-youtube{
+    font-size: 20px;
+     background-color:red;
+     color: #fff;
+     padding: 15px  15px 15px;
+     margin: 5px;
+}
+.siguenos .fa-instagram{
+    font-size: 20px;
+     background-color: #cd3654;
+     color: #fff;
+     padding: 15px  15px 15px;
+     margin: 5px;
+}
+
+@media (max-width: 800px) {
+    .container{
+        display: grid;
+        grid-template-columns: 100%;
+    }  
+}
